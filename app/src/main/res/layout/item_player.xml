@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playerCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1.5dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/gray_border"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:id="@+id/playerRowContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <!-- Checkbox for batch selection -->
+        <CheckBox
+            android:id="@+id/cbSelect"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:buttonTint="@color/accent" />
+
+        <!-- Player Name and Playtime in Parenthesis -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tvPlayerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    tools:text="Bob" />
+
+                <TextView
+                    android:id="@+id/tvPlayTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/accent"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    tools:text="(05:24)" />
+
+            </LinearLayout>
+
+            <!-- Card status indicator text (e.g. "1 Yellow Card" or "RED CARD") -->
+            <TextView
+                android:id="@+id/tvCardStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/red_card"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="1 Yellow Card"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+        <!-- Controls Row -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <!-- Play / Pause Toggle Button -->
+            <ImageButton
+                android:id="@+id/btnPlayPause"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="6dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Play or Pause"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_play"
+                app:tint="@color/play_green" />
+
+            <!-- Yellow Card Button (Bright Yellow) -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnYellowCard"
+                android:layout_width="38dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="6dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="0dp"
+                android:text="@string/card_yellow"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:cornerRadius="6dp"
+                app:backgroundTint="@color/yellow_card"
+                app:elevation="1dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <!-- Red Card Button (Bright Red) -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRedCard"
+                android:layout_width="38dp"
+                android:layout_height="36dp"
+                android:layout_marginEnd="6dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+                android:padding="0dp"
+                android:text="@string/card_red"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:cornerRadius="6dp"
+                app:backgroundTint="@color/red_card"
+                app:elevation="1dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <!-- Undo Card Button -->
+            <ImageButton
+                android:id="@+id/btnUndoCard"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Undo Card"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_undo"
+                app:tint="@color/undo_blue" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

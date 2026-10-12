@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">playTime Tracker</string>
+    <string name="team1_label">Team 1</string>
+    <string name="team2_label">Team 2</string>
+    <string name="team1_name_hint">Enter Team Name</string>
+    <string name="team2_name_hint">Enter Team Name</string>
+    <string name="players_hint">Enter player names separated by new lines</string>
+    <string name="start_match">Start Match</string>
+    
+    <!-- Match Screen -->
+    <string name="pause_all_selected">Pause all selected</string>
+    <string name="play_all_selected">Play all selected</string>
+    <string name="display_logs">Match Log</string>
+    <string name="copy">Copy</string>
+    <string name="close">Close</string>
+    <string name="logs_dialog_title">Match Logs</string>
+    <string name="no_logs">No events recorded yet.</string>
+    <string name="logs_copied">Logs copied to clipboard</string>
+    <string name="submit">Submit</string>
+    <string name="note_hint">Enter note / event description</string>
+    <string name="delete">Delete</string>
+    <string name="card_yellow">YC</string>
+    <string name="card_red">RC</string>
+    <string name="card_undo">Undo</string>
+</resources>

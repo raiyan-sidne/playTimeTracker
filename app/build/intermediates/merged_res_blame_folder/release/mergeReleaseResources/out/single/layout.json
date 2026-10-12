@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-mergeReleaseResources-30:/layout/item_note.xml",
+        "source": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-main-32:/layout/item_note.xml"
+    },
+    {
+        "merged": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-mergeReleaseResources-30:/layout/activity_match.xml",
+        "source": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-main-32:/layout/activity_match.xml"
+    },
+    {
+        "merged": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-mergeReleaseResources-30:/layout/item_player.xml",
+        "source": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-main-32:/layout/item_player.xml"
+    },
+    {
+        "merged": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-mergeReleaseResources-30:/layout/dialog_logs.xml",
+        "source": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-main-32:/layout/dialog_logs.xml"
+    },
+    {
+        "merged": "com.example.playtime.app-mergeReleaseResources-30:/layout/activity_setup.xml",
+        "source": "com.example.playtime.app-main-32:/layout/activity_setup.xml"
+    },
+    {
+        "merged": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-mergeReleaseResources-30:/layout/item_team_header.xml",
+        "source": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-main-32:/layout/item_team_header.xml"
+    },
+    {
+        "merged": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-mergeReleaseResources-30:/layout/activity_setup.xml",
+        "source": "/home/hasinraiyan/.gradle/daemon/8.14.3/com.example.playtime.app-main-32:/layout/activity_setup.xml"
+    }
+]

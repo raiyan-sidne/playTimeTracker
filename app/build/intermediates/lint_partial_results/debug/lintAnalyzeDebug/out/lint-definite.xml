@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.8.0">
+        <fix-replace
+            description="Change to 1.8.0"
+            family="Update versions"
+            oldString="1.7.0"
+            replacement="1.8.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="35"
+            column="20"
+            startOffset="752"
+            endLine="35"
+            endColumn="56"
+            endOffset="788"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.12.0 is available: 1.14.0">
+        <fix-replace
+            description="Change to 1.14.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.14.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="36"
+            column="20"
+            startOffset="808"
+            endLine="36"
+            endColumn="65"
+            endOffset="853"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.constraintlayout:constraintlayout than 2.2.0 is available: 2.2.2">
+        <fix-replace
+            description="Change to 2.2.2"
+            family="Update versions"
+            oldString="2.2.0"
+            replacement="2.2.2"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="37"
+            column="20"
+            startOffset="873"
+            endLine="37"
+            endColumn="70"
+            endOffset="923"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0">
+        <fix-replace
+            description="Change to 1.3.0"
+            family="Update versions"
+            oldString="1.2.1"
+            replacement="1.3.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="40"
+            column="31"
+            startOffset="999"
+            endLine="40"
+            endColumn="62"
+            endOffset="1030"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.test.espresso:espresso-core than 3.6.1 is available: 3.7.0">
+        <fix-replace
+            description="Change to 3.7.0"
+            family="Update versions"
+            oldString="3.6.1"
+            replacement="3.7.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="41"
+            column="31"
+            startOffset="1061"
+            endLine="41"
+            endColumn="75"
+            endOffset="1105"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#F5F7FA` with a theme that also paints a background (inferred theme is `@style/Theme.PlayTime`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_match.xml"
+            line="8"
+            column="5"
+            startOffset="308"
+            endLine="8"
+            endColumn="33"
+            endOffset="336"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#F5F7FA` with a theme that also paints a background (inferred theme is `@style/Theme.PlayTime`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="7"
+            column="5"
+            startOffset="296"
+            endLine="7"
+            endColumn="33"
+            endOffset="324"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/white` with a theme that also paints a background (inferred theme is `@style/Theme.PlayTime`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/dialog_logs.xml"
+            line="9"
+            column="5"
+            startOffset="319"
+            endLine="9"
+            endColumn="38"
+            endOffset="352"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                point="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_match.xml"
+            line="103"
+            column="14"
+            startOffset="3882"
+            endLine="103"
+            endColumn="22"
+            endOffset="3890"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/playtime/PlayerAdapter.java"
+            line="108"
+            column="59"
+            startOffset="4270"
+            endLine="108"
+            endColumn="69"
+            endOffset="4280"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/playtime/PlayerAdapter.java"
+            line="112"
+            column="59"
+            startOffset="4590"
+            endLine="112"
+            endColumn="81"
+            endOffset="4612"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/playtime/PlayerAdapter.java"
+            line="116"
+            column="59"
+            startOffset="4922"
+            endLine="116"
+            endColumn="74"
+            endOffset="4937"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Team 1&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="53"
+            column="25"
+            startOffset="2142"
+            endLine="53"
+            endColumn="46"
+            endOffset="2163"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Team 1 Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="63"
+            column="25"
+            startOffset="2661"
+            endLine="63"
+            endColumn="51"
+            endOffset="2687"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Team 1&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="72"
+            column="29"
+            startOffset="3199"
+            endLine="72"
+            endColumn="50"
+            endOffset="3220"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Player Names (one per line)&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="79"
+            column="25"
+            startOffset="3583"
+            endLine="79"
+            endColumn="67"
+            endOffset="3625"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Team 2&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="113"
+            column="25"
+            startOffset="5153"
+            endLine="113"
+            endColumn="46"
+            endOffset="5174"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Team 2 Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="123"
+            column="25"
+            startOffset="5672"
+            endLine="123"
+            endColumn="51"
+            endOffset="5698"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Team 2&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="132"
+            column="29"
+            startOffset="6210"
+            endLine="132"
+            endColumn="50"
+            endOffset="6231"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Player Names (one per line)&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="139"
+            column="25"
+            startOffset="6594"
+            endLine="139"
+            endColumn="67"
+            endOffset="6636"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Start Match&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_setup.xml"
+            line="159"
+            column="17"
+            startOffset="7581"
+            endLine="159"
+            endColumn="43"
+            endOffset="7607"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Delete Note&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_note.xml"
+            line="34"
+            column="9"
+            startOffset="1203"
+            endLine="34"
+            endColumn="49"
+            endOffset="1243"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Play or Pause&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_player.xml"
+            line="96"
+            column="13"
+            startOffset="3422"
+            endLine="96"
+            endColumn="55"
+            endOffset="3464"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Undo Card&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_player.xml"
+            line="139"
+            column="13"
+            startOffset="5051"
+            endLine="139"
+            endColumn="51"
+            endOffset="5089"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Team 1&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/item_team_header.xml"
+            line="16"
+            column="9"
+            startOffset="508"
+            endLine="16"
+            endColumn="30"
+            endOffset="529"/>
+    </incident>
+
+</incidents>

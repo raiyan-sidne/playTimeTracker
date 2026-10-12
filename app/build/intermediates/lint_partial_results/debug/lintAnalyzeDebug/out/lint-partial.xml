@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.7.3" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.playtime.SetupActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.gray_light"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="9"
+            column="12"
+            startOffset="277"
+            endLine="9"
+            endColumn="29"
+            endOffset="294"/>
+        <location id="R.string.card_undo"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="24"
+            column="13"
+            startOffset="1091"
+            endLine="24"
+            endColumn="29"
+            endOffset="1107"/>
+        <location id="R.string.delete"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="21"
+            column="13"
+            startOffset="966"
+            endLine="21"
+            endColumn="26"
+            endOffset="979"/>
+        <location id="R.string.players_hint"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="7"
+            column="13"
+            startOffset="276"
+            endLine="7"
+            endColumn="32"
+            endOffset="295"/>
+        <location id="R.string.start_match"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="8"
+            column="13"
+            startOffset="351"
+            endLine="8"
+            endColumn="31"
+            endOffset="369"/>
+        <location id="R.string.team1_label"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="3"
+            column="13"
+            startOffset="70"
+            endLine="3"
+            endColumn="31"
+            endOffset="88"/>
+        <location id="R.string.team1_name_hint"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="5"
+            column="13"
+            startOffset="164"
+            endLine="5"
+            endColumn="35"
+            endOffset="186"/>
+        <location id="R.string.team2_label"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="4"
+            column="13"
+            startOffset="117"
+            endLine="4"
+            endColumn="31"
+            endOffset="135"/>
+        <location id="R.string.team2_name_hint"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="6"
+            column="13"
+            startOffset="220"
+            endLine="6"
+            endColumn="35"
+            endOffset="242"/>
+        <entry
+            name="model"
+            string="attr[actionBarSize(R),selectableItemBackgroundBorderless(R),colorPrimaryVariant(R)],color[red_card(U),row_normal(U),gray_border(U),card_row_light_red(U),yellow_card(U),white(U),pause_orange(U),play_green(U),primary(U),black(U),undo_blue(U),primary_dark(U),accent(U),gray_light(D),text_secondary(U)],drawable[bg_red_card(U),bg_row_normal(U),bg_row_red(U),bg_yellow_card(U),ic_content_copy(U),ic_delete(U),ic_pause(U),ic_play(U),ic_undo(U)],id[btnPauseAll(U),btnPlayAllSelected(U),btnDisplayLogs(U),rvPlayers(U),etNote(U),btnSubmitNote(U),rvNotes(U),toolbar(D),layoutTeam1Name(D),etTeam1Name(U),layoutTeam1Players(U),etTeam1Players(U),layoutTeam2Name(D),etTeam2Name(U),layoutTeam2Players(U),etTeam2Players(U),btnStartMatch(U),tvLogsText(U),btnCopyLogs(U),btnCloseLogs(U),tvNoteContent(U),btnDeleteNote(U),playerRowContainer(U),cbSelect(U),tvPlayerName(U),tvPlayTime(U),tvCardStatus(U),btnPlayPause(U),btnYellowCard(U),btnRedCard(U),btnUndoCard(U),tvTeamHeader(U)],layout[activity_match(U),item_player(U),item_note(U),activity_setup(U),dialog_logs(U),item_team_header(U)],string[app_name(U),pause_all(U),play_all_selected(U),display_logs(U),note_hint(U),submit(U),appbar_scrolling_view_behavior(R),logs_dialog_title(U),copy(U),close(U),card_yellow(U),card_red(U),team1_label(D),team2_label(D),team1_name_hint(D),team2_name_hint(D),players_hint(D),start_match(D),no_logs(U),logs_copied(U),delete(D),card_undo(D)],style[Theme_PlayTime(U),ThemeOverlay_MaterialComponents_Dark_ActionBar(R),Widget_MaterialComponents_TextInputLayout_OutlinedBox(R),Widget_MaterialComponents_Button_TextButton(R),Theme_MaterialComponents_DayNight_NoActionBar(R)];12^3,13^4^5,14^6,15^7,17^3,3b^8^42^9^43^a^44^b^3c^5^13^45^46^3d,3c^13^b^c^3^1^19^a^15^4b^12^4c^8^1a^d,3d^13^c^1^17,3e^58^b^0^8^47^59,3f^8^48^b^c^49^16^4a^5a,40^b^5,57^5b^b^e^8^f^2;;;"/>
+    </map>
+
+</incidents>
